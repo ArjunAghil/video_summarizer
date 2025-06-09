@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: yt-summarizer-backend
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: TOGETHER_API_KEY
+        value: e7a501a28a46881b3559d8599dd96cf6bb100fe303fc4cfa67f02c023b193d41
