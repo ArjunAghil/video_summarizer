@@ -15,3 +15,7 @@ function summarizeVideo() {
     resultBox.textContent = "✅ Video Summary:\n\nThis is a placeholder summary for the video.\n(Replace this with your backend response)";
   }, 2000);
 }
+
+function comingSoon() {
+  alert("This feature is coming soon! Stay tuned.");
+}
